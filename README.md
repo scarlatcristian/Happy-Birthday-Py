@@ -41,7 +41,8 @@ To use the script:
 
 Run the script:
 
-python birthday_wisher.py
+   ```bash
+   python birthday_wisher.py
 
 The script will read the CSV file, check for birthdays matching the current date, and send personalized emails to the recipients.
 
