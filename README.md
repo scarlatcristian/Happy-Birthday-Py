@@ -24,23 +24,25 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    pip install pandas
-Configure your email credentials:
+   
+## Configure your email credentials:
 
-Replace 'your_email_address' with your Gmail email address.
-Replace 'your_google_apps_password' with your Google Apps password (or app-specific password).
-Optionally, set a custom username in the USER_NAME variable.
-Prepare your CSV file:
+1. Replace 'your_email_address' with your Gmail email address.
+2. Replace 'your_google_apps_password' with your Google Apps password (or app-specific password).
+3. Optionally, set a custom username in the USER_NAME variable.
 
-Create a CSV file named birthdays.csv containing the following columns: name, email, day, and month.
-List the names, email addresses, and birthdays (day and month) of the people you want to send birthday wishes to.
-Usage
+## Prepare your CSV file:
+
+1. Create a CSV file named birthdays.csv containing the following columns: name, email, day, and month.
+2. List the names, email addresses, and birthdays (day and month) of the people you want to send birthday wishes to.
+
+## Usage
 To use the script:
 
 Run the script:
 
-bash
-Copy code
 python birthday_wisher.py
+
 The script will read the CSV file, check for birthdays matching the current date, and send personalized emails to the recipients.
 
 Sit back and let the script handle the birthday wishes for you!
